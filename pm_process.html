@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- icons https://iconify.design/icon-sets/simple-line-icons/ -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Homize 2.0</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.min.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+
+</head>
+
+<body>
+    <!-- Nav bar with logo, text, and button for rob -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/favicon-32x32.png" width="30" height="30" class="d-inline-block align-top" alt="">Homize
+            Project
+            Home 2.0</a>
+        <form class="form-inline">
+            <a class="btn btn-primary" href="https://datastudio.google.com/open/1mlopXr-UNVB7-c6-ptQ9IkICL2fLZ3L1"
+                role="button" target="_blank">Launch Dashboard 2.0</a>
+        </form>
+    </nav>
+
+    <!-- NEW - what to do section -->
+    <section class="process-section bg-light text-center">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-8">Work Intake Process</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- google doc -->
+    <Section>
+        <div class="container">
+            <div class="row">
+
+                <!-- section - types of work -->
+                <h1>Types of Work</h1>
+                <p>All work is defined as either task level or project work. By creating two distinct workstreams for
+                    all work
+                    coming into
+                    the teams. We can build in automation to help the team achieve more and reduce the amount of work in
+                    progress (WIP).</p>
+            </div>
+            <p>
+                Task or Bugs are primarily based on two different criteria.
+            </p>
+            <ol>
+                <li>Can the work be done by a single person?</li>
+                <li>Will it take less than 8 man hours to complete?</li>
+            </ol>
+            <p>
+                Project work is defined as primarily needing some level of discovery to define the level of effort
+                (LOE) before work can
+                begin.
+            </p>
+            <br>
+            <!-- Section - trello organization -->
+            <h1>
+                Trello Organization
+            </h1>
+            <p>
+                Trello is the project management tool of choice for the development team. This tool allows the team to
+                track in-flight
+                work while being flexible enough to be modified to meet the growing needs of the team.
+            </p>
+            <p>
+                Work in Trello is organized into 2 different boards. The Task/Bug board is where the majority of the
+                work is captured.
+                Each card equals an individual task with a single owner. The Project board provides a high level
+                overview of each of the
+                various projects that are in flight. Each card equals a project and the milestones will be listed in
+                each card. A link
+                to the project plan housed in google sheets will be saved under each card.
+            </p>
+            <p>
+                The Task/Bug Board is organized with the following columns:
+            </p>
+            <ul>
+                <li>Backlog - Unapproved: This is a parking lot of work that has been submitted. The backlog is reviewed
+                    on a weekly basis
+                    and any approved work is moved into the “Selected for Dev - Approved Tasks”. Before a task can be
+                    moved into the
+                    selected for dev column the card needs to have a budget (approved number of hours that should be
+                    used to complete the
+                    task), a due date, and a priority.
+                </li>
+                <li>Selected for Dev - Approved: This where all approved work is moved to. Tasks will remain in this
+                    column until they are
+                    picked up by the team. The goal is to limit the amount of work in progress (WIP) to prevent tasks
+                    from getting lost and
+                    abandoned.</li>
+                <li>
+                    In Progress: Only tasks that are actively being worked on should be in this column. Work that is on
+                    deck or hasn’t
+                    started should be in the “Selected for Dev” column. This includes work that is “blocked”. Any tasks
+                    that are blocked
+                    should remain in the In Progress column while efforts are being done to unblock the task. If the
+                    issue remains blocked
+                    after 3 or 4 days then the task needs to be moved out of the In Progress so more work can be pulled
+                    in. The WIP limit
+                    for this column is 2 tasks per person. If ownership needs to move between people then they need to
+                    be added as the only
+                    member of the task.
+                </li>
+                <li>
+                    Done: all completed work is moved to this column for final review and acceptance by the stakeholder
+                    who requested the
+                    task. Completed work will be archived on a weekly basis. If the card that has been moved into the
+                    done column is a bug
+                    that is in Bugherd it is the responsibility of the developer to update Bugherd accordingly.
+                </li>
+            </ul>
+            <br>
+            <!-- section - Project Work -->
+            <h1>
+                Project Work
+            </h1>
+            <p>
+                All projects have to be prioritized and go through an approval process. This process will ensure that
+                the team is
+                working on the things that are the most important things. Priority lives with Mike Hittle and is
+                reviewed on an ongoing
+                basis.
+            </p>
+            <p>
+                Projects are submitted through the Project form which will automatically create a trello card. That card
+                is assigned to
+                Mike H to add a project budget and add the priority. This allows for a clean pipeline of approved work
+                for the team.
+                This allows the business to control development costs and ensure the ROI is pointed in the right
+                direction.
+            </p>
+            <br>
+            <!-- section - deployment tracking -->
+            <h1>
+                Deployment Tracking
+            </h1>
+            <p>
+                It is necessary to build in a process to track all changes in the production environment to ensure that
+                there is
+                transparency and accountability for all changes. Knowing what changes have recently happened allows for
+                quicker problem
+                resolution. This will reduce the chance that customers (users) have a negative experience which may lead
+                to and dip in
+                sales revenue.
+            </p>
+            <h2>
+                Framework
+            </h2>
+            <ul>
+                <li>
+                    Deployments will be classified as scheduled or ad-hoc (now).
+                </li>
+                <li>
+                    Production deployments should only be executed during the planned maintenance window (Thursdays @ 4p
+                    PST / 7p
+                    EST).Ad-hoc deployments require approval from Mike Hittle.
+                </li>
+                <li>
+                    Before any deployment a developer is required to complete a production deployment form. There are no
+                    exceptions allowed.
+                </li>
+                <li>
+                    Planned deployments will go through a peer-review / stakeholder process to ensure that all questions
+                    and concerns are
+                    answered prior to the change. If a deployment is given a “no go” then all questions or concerns must
+                    be addressed before
+                    the change is made.
+                </li>
+                <li>
+                    Testing in a non-production environment is a requirement if possible.
+                </li>
+            </ul>
+
+            <!-- add more content -->
+            <br>
+            <h3>MORE TO BE ADDED ... </h3>
+        </div>
+    </Section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
